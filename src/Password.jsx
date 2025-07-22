@@ -1,6 +1,6 @@
 import { useState , useCallback , useEffect , useRef} from 'react';
 
-function App() {
+function Password() {
   const [length, setLength] = useState(8);
   const [number ,  setNumber] = useState(false);
   const [char ,  setChar] = useState(false);
@@ -92,4 +92,5 @@ onChange={(e) => {setLength(e.target.value)}}
   )
 }
 
-export default App
+export default Password
+
